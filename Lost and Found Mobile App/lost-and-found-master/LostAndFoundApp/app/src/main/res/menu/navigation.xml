@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_profile_tab"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/title_profile_tab" />
+
+    <item
+        android:id="@+id/navigation_lost_tab"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="@string/title_lost_tab" />
+
+    <item
+        android:id="@+id/navigation_found_tab"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        android:title="@string/title_found_tab" />
+
+</menu>

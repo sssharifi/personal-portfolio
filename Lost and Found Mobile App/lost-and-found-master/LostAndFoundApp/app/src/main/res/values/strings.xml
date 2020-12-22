@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Lost"\u0026"Found</string>
+    <string name="LOSTFOUND">LOST "\u0026" FOUND</string>
+
+    <!--API kay Don't Change!!!-->
+    <string name="google_maps_API_key">AIzaSyBc_t0LxRpEZFDmCnhA1PWB1wQFqt3_N64</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_Login">Sign Up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">
+        "Contacts permissions are needed for providing email completions."
+    </string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_nav_tabs">NavTabsActivity</string>
+    <string name="title_profile_tab">Profile</string>
+    <string name="title_lost_tab">Lost Items</string>
+    <string name="title_found_tab">Found Items</string>
+    <string name="myLostReports">My Lost Reports</string>
+    <string name="myFoundReports">My Found Reports</string>
+
+    <string name="btUpdateProfile">Submit</string>
+    <string name="changeImage">Change Image</string>
+    <string name="tvUpdateProfileName">User Name</string>
+    <string name="tvUpdateProfileEmail">User Email</string>
+    <string name="ChangePassword">New Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="CurrentPassword">Current Password</string>
+    <string name="Username">Username</string>
+
+    <string name="editProfileImage">Edit Image</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcomeBack">Welcome back!</string>
+    <string name="tbProfileName">Username</string>
+    <string name="tvProfileEmail">Email</string>
+    <string name="updateProfile">Update Profile</string>
+    <string name="searchExisting">Search Existing</string>
+    <string name="addNew">New Report</string>
+
+    <string name="map_hint">Enter Address, City or Zip Code</string>
+    <string name="get_location">Get Location</string>
+
+    <string name="search_found">Search Found Reports</string>
+    <string name="search_lost">Search Lost Reports</string>
+    <string name="missingTitle">Missing Title</string>
+    <string name="missingDate">Missing Date</string>
+    <string name="missingAddress">Missing Address</string>
+    <string name="missingDescription">Missing Description</string>
+    <string name="searchBtn">SEARCH</string>
+
+    <!-- Strings for New Reports -->
+    <string name="new_lost">New Lost Report</string>
+    <string name="new_found">New Found Report</string>
+    <string name="title">Title: </string>
+    <string name="enter_lost_title">Enter title of lost item</string>
+    <string name="enter_found_title">Enter title of found item</string>
+    <string name="choose_date">Posts Between: </string>
+    <string name="date_lost">Date Lost: </string>
+    <string name="date_found">Date Found: </string>
+    <string name="no_date">No date selected</string>
+    <string name="location">Location: </string>
+    <string name="coordinates">Coordinates: </string>
+    <string name="no_coordinates">No location selected</string>
+    <string name="address">Address: </string>
+    <string name="no_address">No address available</string>
+    <string name="radius">Radius: </string>
+    <string name="description">Description: </string>
+    <string name="description_filler">Provide any additional details about the item</string>
+    <string name="new_date">SELECT DATE</string>
+    <string name="new_location">GET LOCATION</string>
+    <string name="new_submit">SUBMIT</string>
+    <string name="new_cancel">CANCEL</string>
+    <string name="start_btn">SELECT START</string>
+    <string name="select_start">Starting Date</string>
+    <string name="end_btn">SELECT END</string>
+    <string name="select_end">Ending Date</string>
+    <string name="to">to</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Lost_tab">Lost</string>
+    <string name="title_activity_post_new_found_report">PostNewFoundReport</string>
+    <string name="title_activity_post_new_lost_report">PostNewLostReportActivity</string>
+
+    <string-array name="radius_spinner_options">
+        <item>5 miles</item>
+        <item>2 miles</item>
+        <item>1 miles</item>
+        <item>0.5 miles</item>
+        <item>0.25 miles</item>
+        <item>500 feet</item>
+        <item>250 feet</item>
+    </string-array>
+</resources>

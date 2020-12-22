@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFoundReportsActivity">
+
+    <TextView
+        android:id="@+id/searchFoundTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/search_found"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/locationSearchFoundHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/location"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/getFoundSearchLocationButton" />
+
+    <Button
+        android:id="@+id/getFoundSearchLocationButton"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/new_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchFoundTitle" />
+
+    <TextView
+        android:id="@+id/searchFoundCoordinatesHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/coordinates"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintStart_toStartOf="@+id/locationSearchFoundHeader"
+        app:layout_constraintTop_toBottomOf="@+id/getFoundSearchLocationButton" />
+
+    <TextView
+        android:id="@+id/searchFoundCoordinates"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/no_coordinates"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/getFoundSearchLocationButton"
+        app:layout_constraintTop_toTopOf="@+id/searchFoundCoordinatesHeader" />
+
+    <TextView
+        android:id="@+id/searchFoundAddressHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/address"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintStart_toStartOf="@+id/searchFoundCoordinatesHeader"
+        app:layout_constraintTop_toBottomOf="@+id/searchFoundCoordinates" />
+
+    <TextView
+        android:id="@+id/searchFoundAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/no_address"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/searchFoundCoordinates"
+        app:layout_constraintTop_toTopOf="@+id/searchFoundAddressHeader" />
+
+    <TextView
+        android:id="@+id/radiusSearchFoundHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/radius"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintStart_toStartOf="@+id/searchFoundAddressHeader"
+        app:layout_constraintTop_toBottomOf="@+id/searchFoundAddress" />
+
+    <Spinner
+        android:id="@+id/radiusSearchFoundSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/searchFoundAddress"
+        app:layout_constraintTop_toTopOf="@+id/radiusSearchFoundHeader" />
+
+    <Button
+        android:id="@+id/launchSearchFoundButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/searchBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startDateFoundButton" />
+
+    <TextView
+        android:id="@+id/dateTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/to"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintEnd_toStartOf="@+id/endDateText"
+        app:layout_constraintStart_toEndOf="@+id/startDateText"
+        app:layout_constraintTop_toTopOf="@+id/endDateText" />
+
+    <TextView
+        android:id="@+id/dateHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/choose_date"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintStart_toStartOf="@+id/radiusSearchFoundHeader"
+        app:layout_constraintTop_toBottomOf="@+id/radiusSearchFoundSpinner" />
+
+    <Button
+        android:id="@+id/startDateFoundButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/start_btn"
+        app:layout_constraintEnd_toEndOf="@+id/startDateText"
+        app:layout_constraintStart_toStartOf="@+id/startDateText"
+        app:layout_constraintTop_toBottomOf="@+id/startDateText" />
+
+    <Button
+        android:id="@+id/endDateFoundButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/end_btn"
+        app:layout_constraintEnd_toEndOf="@+id/endDateText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/endDateText"
+        app:layout_constraintTop_toBottomOf="@+id/endDateText" />
+
+    <TextView
+        android:id="@+id/startDateText"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/select_start"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle"
+        app:layout_constraintStart_toStartOf="@+id/dateHeader"
+        app:layout_constraintTop_toBottomOf="@+id/dateHeader" />
+
+    <TextView
+        android:id="@+id/endDateText"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/select_end"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/startDateText" />
+
+</android.support.constraint.ConstraintLayout>
