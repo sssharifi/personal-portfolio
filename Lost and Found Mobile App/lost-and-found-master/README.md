@@ -1,7 +1,7 @@
 # Lost and Found
 
 Name:
-Lost & Found (still thinking of a better name)
+Lost & Found 
 
 Description:
 Whether one is working, running and errand, or even just lounging at home, people still have the tendency to be forgetful and misplace their belongings. This is especially common when one is in a hurry or subjected to hectic conditions. This app would implement a "lost-and-found" system that allows users to both (1) search for a lost item within a vicinity (could be on a campus, in a mall, at a park, or just a general area) or (2) indicate that they have found a misplaced item that belongs to another – by making a posting with details such as the location found, pictures, item description, and tags (for searching ability).
