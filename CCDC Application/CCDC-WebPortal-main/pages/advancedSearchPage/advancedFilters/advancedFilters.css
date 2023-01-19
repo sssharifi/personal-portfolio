@@ -1,0 +1,36 @@
+.advancedFilterBlock {
+  /* background-color: #f7f8fa; */
+  background-color: white;
+  display: flex;
+}
+
+.advancedFilterSection {
+  /* border-top: 3px solid #c3d5e0; */
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.advancedFilterLabel {
+  /* background-color: #f7f8fa; */
+  background-color: white;
+  color: #2dc799;
+  font-weight: 700;
+  font-size: 1.4rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.advancedFilterHeader {
+  background-color: white;
+  color: #8a9296;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.advancedFilterArea {
+  width: 48%;
+  margin-top: 20px;
+  margin-right: 2%;
+}
