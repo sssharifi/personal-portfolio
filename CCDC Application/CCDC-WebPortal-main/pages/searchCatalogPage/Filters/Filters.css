@@ -1,0 +1,73 @@
+.filterSummary {
+  background-color: #f7f8fa;
+  margin: 5px 5px 0px 5px;
+  display: grid;
+}
+
+.advancedSearchBox {
+  margin: 10px;
+}
+
+.advancedSearchButton {
+  background-color: #004187;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.advancedSearchButton span {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.advancedSearchButton span a{
+  color: white;
+  text-decoration: none;
+}
+
+.advancedSearchButton svg {
+  float: right;
+  height: 24px;
+}
+
+.resourceFilterSection {
+  border-top: 3px solid #c3d5e0;
+}
+
+.filterBlock {
+  background-color: #f7f8fa;
+  margin: 0 5px;
+}
+
+.filterSection {
+  border-top: 3px solid #c3d5e0;
+}
+
+.filterLabel {
+  background-color: #f7f8fa;
+  margin: 5px 5px 0 5px;
+  padding: 10px;
+  color: #004187;
+  font-weight: 900;
+  font-family: Lato;
+  font-size: 23px;
+  position: relative;
+}
+
+.clear-all-button {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.clear-all-button:hover {
+  width: 23px;
+  height: 23px;
+}

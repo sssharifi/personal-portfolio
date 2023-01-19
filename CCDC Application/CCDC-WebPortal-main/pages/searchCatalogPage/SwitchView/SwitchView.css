@@ -1,0 +1,23 @@
+
+.switch-view-content .nav-link {
+  color: #748895;
+  
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* padding: .8rem 1rem 0.8rem 0; */
+  padding: .5rem 1rem 0.8rem 0;
+}
+
+.switch-view-content .nav-link.active {
+  background-color: transparent;
+  color: #004187;
+  border-radius: 0;
+}
+
+.switch-view-content .nav-link img{
+  width: 13pt;
+  margin-top: -3px;
+  margin-right: 6px;
+}
