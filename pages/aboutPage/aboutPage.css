@@ -1,0 +1,92 @@
+.aboutPageContainer {
+    margin: 0 auto;
+    width: 1250px;
+    /* border-left: 1px solid lightgray; */
+    /* border-right: 1px solid lightgray; */
+}
+.aboutPageHeader {
+    /* margin: 0 auto; */
+    /* width: 1250px; */
+    padding: 28px 10px 30px 28px;
+}
+.aboutHeaderText {
+    color: #004187;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.aboutHeaderImage {
+    margin-top: -170px;
+    float: right;
+    width: 700px;
+}
+.aboutPageSection1 {
+    margin: 0 auto;
+    width: 1250px;
+    padding: 0px 0px 40px 110px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.aboutContent1 {
+    width: 83%;
+    padding: 40px 0px 0px 0px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aboutContentHeader1 {
+    padding-bottom: 10px;
+    /* color: #2dc799; */
+    color: #00a272;
+    font-weight: 300;
+    font-family: Inter;
+    font-size: 33px;
+}
+.aboutContent1 a {
+    /* color: rgb(0, 150, 255); */
+    color: #004187;
+    font-weight: bold;
+    text-underline-offset: 2px;
+}
+.aboutPageSection2Container {
+    margin: 0 auto;
+    width: 1250px;
+    /* overflow-wrap: break-word; */
+    /* max-inline-size: 1250px; */
+    padding: 10px 10px 80px 10px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.aboutPageSection2 {
+    padding: 30px 0px 50px 100px;
+    background-color: #e6c44e;
+}
+.aboutContent2 {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aboutContentHeader2 {
+    padding-bottom: 10px;
+    color: #0052b3;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 33px;
+    /* width: 574px; */
+    letter-spacing: -1.5px;
+}
+.aboutContent2 a {
+    /* color: white; */
+    color: #004187;
+    font-weight: bold;
+    text-underline-offset: 2px;
+}
+.aboutGrid{
+    color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+html {
+    overflow-x: hidden;
+}
